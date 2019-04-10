@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home() {
-        return "Hello World! +1 v0.2";
+
+        return "Hello World! + v0.2 -- v0.3 merge";
+
     }
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
